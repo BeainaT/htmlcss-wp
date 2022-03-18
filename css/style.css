@@ -3,22 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #8A8A8A;
+}
 .container {
     max-width: 1280px;
     margin: auto;
 }
+.logo {
+    width: 150px;    
+}
 
-header {
-    background-color: #e579e6;
-    min-height: 100px;
+nav ul li {
+    display: inline-block;
+}
+nav a {
+    text-decoration: none;
+    color: #8A8A8A;      
+}
+
+nav li {
+    padding: 20px 5px;
 }
 
 /*sezione "green" del main*/
 section.up {
     background-color: #e1d67a;
     min-height: 400px;
-    margin: 20px 0;
 }
 
 /*sezione "lightblue" del main*/
