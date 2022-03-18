@@ -35,7 +35,7 @@ nav li {
     max-width: 1280px;
     height: 500px;
 }
-img {
+.cont-hero img, .col img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -55,43 +55,37 @@ h1 {
     font-weight: 300;
     font-size: 28px
 }
-
 /*sezione leadership*/
-section.leadership {
-    min-height: 600px;
-    margin-top: 20px;
-}
-
-.leadership {
-    min-height: 80px;
-    margin-bottom: 15px;
+.leadership-title {
+    margin: 30px 0;
 }
 .leadership-title > h2 {
     font-weight: 600;
     font-size: 32px;
     color: #000000;    
 }
-
 /*div contenitore per le colonne*/
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
-
 .col {
-    background-color: #abcfe7;
-    min-height: 490px;
     float: left;
-}
-
-.col.left, .col.right {
     width: 20%;
+    padding: 15px 0;
+}
+.col img {
+    height: 200px;
+}
+.col h4 {
+    color:#000000;
+    padding: 10px 0;
 }
 
-.col.middle {
-    width: calc(60% - 30px);
-    margin: 0 15px;
+.col.bigger {
+    width: calc(60% - 40px);
+    margin: 0 20px;
 }
 footer {
     background-color: #8601fe;
