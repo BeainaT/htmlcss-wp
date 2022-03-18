@@ -7,14 +7,15 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #8A8A8A;
 }
+
 .container {
     max-width: 1280px;
     margin: auto;
 }
+/*header*/
 .logo {
     width: 150px;    
 }
-
 nav ul li {
     display: inline-block;
 }
@@ -22,21 +23,44 @@ nav a {
     text-decoration: none;
     color: #8A8A8A;      
 }
-
 nav li {
     padding: 20px 5px;
 }
 
-/*sezione "green" del main*/
-section.up {
-    background-color: #e1d67a;
-    min-height: 400px;
+/*sezione hero del main*/
+.hero {
+    position: relative;
+}
+.cont-hero {
+    max-width: 1280px;
+    height: 500px;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.8);
+    border-radius: 10px;
+}
+.slogan {
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    padding-left: 40px;
+    padding-bottom: 70px;
+    color: #ffffff;
+}
+h1 {
+    font-weight: 300;
+    font-size: 28px
 }
 
 /*sezione "lightblue" del main*/
 section.down {
     background-color: #0086ff;
     min-height: 600px;
+    margin-top: 20px;
 }
 
 .row {
